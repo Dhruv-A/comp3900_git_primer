@@ -8,7 +8,7 @@ def home():
 
 @app.route('/calculator')
 def calculator():
-    return render_template('calc.html')
+    return render_template('calculator.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
